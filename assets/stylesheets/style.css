@@ -53,7 +53,7 @@ p { font-size: .9em }
 
 nav {
   float: right;
-  margin-top: 50px;
+  margin-top: 30px;
 }
 
 nav ul li {
@@ -79,7 +79,7 @@ nav ul li {
 }
 
 #about h1 {
-  color: #d1fd03 ;
+  color: #effdaf ;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -87,9 +87,7 @@ nav ul li {
 
 .thumbnails img { width: 100%; }
 
-#news {
-  padding: 50px
-}
+#news { padding: 50px }
 
 #news img {
   width: 100%;
@@ -108,7 +106,7 @@ nav ul li {
 }
 
 #team h1 {
-  color: #d1fd03 ;
+  color: #effdaf ;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -133,6 +131,21 @@ nav ul li {
   text-align: center;
 }
 
+#news .col-sm-12 a {
+  margin-top: 30px;
+  background-color: #d1fd03;
+  border-radius: 5px;
+  padding: 5px;
+  color: #000;
+  display: block;
+  text-align: center;
+}
+#news .col-sm-12 a:hover {
+  background-color: #99ae37;
+  color: #FFF;
+  text-decoration: none;
+}
+
 #news .thumbnail_content {
   padding: 10px;
   background-image: radial-gradient(circle 80vh at bottom, #FFF, #6f0367);
@@ -151,7 +164,7 @@ nav ul li {
 }
 
 #parts h1 {
-  color: #d1fd03 ;
+  color: #effdaf ;
   text-align: center;
   text-transform: uppercase;
   margin-bottom: 15px;
@@ -166,6 +179,26 @@ nav ul li {
   text-transform: uppercase;
   font-size: 1.2em;
   text-align: center;
+}
+
+#parts p a {
+  color: #d1fd03;
+  text-decoration: underline;
+}
+
+#parts .col-sm-12 a {
+  margin-top: 30px;
+  background-color: #d1fd03;
+  border-radius: 5px;
+  padding: 5px;
+  color: #000;
+  display: block;
+  text-align: center;
+}
+#parts .col-sm-12 a:hover {
+  background-color: #99ae37;
+  color: #FFF;
+  text-decoration: none;
 }
 
 #parts .thumbnail_content {
@@ -185,11 +218,13 @@ nav ul li a {
 nav ul li a:hover {
   background-color: #fff;
   color: #2c0129;
+  text-decoration: none;
 }
 
 #team h2 {
   text-align: center;
   color: #FFF;
+  margin-top: 25px;
 }
 #team h3 {
   text-align: center;
@@ -206,4 +241,290 @@ nav ul li a:hover {
 
 footer {
   padding: 50px;
+}
+
+#trots {
+  border-bottom: 1px solid #2c0129;
+  padding: 50px;
+}
+
+#trots h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+#trots h2 {
+  text-transform: uppercase;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+#trots .col-sm-12 a {
+  margin-top: 30px;
+  background-color: #d1fd03;
+  border-radius: 5px;
+  padding: 5px;
+  color: #000;
+  display: block;
+  text-align: center;
+}
+#trots .col-sm-12 a:hover {
+  background-color: #99ae37;
+  color: #FFF;
+  text-decoration: none;
+}
+
+#trots .thumbnail {
+  margin-top: 50px;
+}
+
+#trots .thumbnail_content {
+  padding: 10px;
+  background-image: radial-gradient(circle 80vh at bottom, #FFF, #6f0367);
+  min-height: 300px;
+}
+
+#trots img {
+  width: 100%;
+  border-bottom: 3px solid #FFF;
+}
+
+#trots a {
+  color: #2c182b;
+}
+
+#trots a:hover {
+  text-decoration: none;
+}
+
+#thunder {
+  padding: 50px;
+  background-image: radial-gradient(circle 80vh at bottom, #6f0367, #2c0129);
+}
+
+#thunder img {
+  border: 10px solid #7f0877;
+  border-radius: 100%;
+}
+
+#thunder h1 {
+  color: #d1fd03;
+}
+
+#thunder h2 {
+  color: #effdaf;
+}
+
+#thunder p {
+  color: #FFF;
+}
+
+#aktivo {
+  padding: 50px;
+  background-image: radial-gradient(circle 80vh at bottom, #6f0367, #2c0129);
+}
+
+#aktivo img {
+  border: 10px solid #7f0877;
+  border-radius: 100%;
+}
+
+#aktivo h1 {
+  color: #d1fd03;
+}
+
+#aktivo h2 {
+  color: #effdaf;
+}
+
+#aktivo p {
+  color: #FFF;
+}
+
+#etwow {
+  padding: 50px;
+  background-image: radial-gradient(circle 80vh at bottom, #6f0367, #2c0129);
+}
+
+#etwow img {
+  border: 10px solid #7f0877;
+  border-radius: 100%;
+}
+
+#etwow h1 {
+  color: #d1fd03;
+}
+
+#etwow h2 {
+  color: #effdaf;
+}
+
+#etwow p {
+  color: #FFF;
+}
+
+#ninebot {
+  padding: 50px;
+  background-image: radial-gradient(circle 80vh at bottom, #6f0367, #2c0129);
+}
+
+#ninebot img {
+  border: 10px solid #7f0877;
+  border-radius: 100%;
+}
+
+#ninebot h1 {
+  color: #d1fd03;
+}
+
+#ninebot h2 {
+  color: #effdaf;
+}
+
+#ninebot p {
+  color: #FFF;
+}
+
+#equipments {
+  border-bottom: 1px solid #2c0129;
+  padding: 50px;
+}
+
+#equipments h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+#equipments h2 {
+  text-transform: uppercase;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+#equipments .col-sm-12 a {
+  margin-top: 30px;
+  background-color: #d1fd03;
+  border-radius: 5px;
+  padding: 5px;
+  color: #000;
+  display: block;
+  text-align: center;
+}
+#equipments .col-sm-12 a:hover {
+  background-color: #99ae37;
+  color: #FFF;
+  text-decoration: none;
+}
+
+#equipments .thumbnail {
+  margin-top: 50px;
+}
+
+#equipments .thumbnail_content {
+  padding: 10px;
+  background-image: radial-gradient(circle 80vh at bottom, #FFF, #6f0367);
+  min-height: 300px;
+}
+
+#equipments img {
+  width: 100%;
+  border-bottom: 3px solid #FFF;
+}
+
+#equipments a {
+  color: #2c182b;
+}
+
+#equipments a:hover {
+  text-decoration: none;
+}
+
+#accelerator {
+  padding: 50px;
+  background-image: radial-gradient(circle 80vh at bottom, #6f0367, #2c0129);
+}
+
+#accelerator img {
+  border: 10px solid #7f0877;
+  border-radius: 100%;
+}
+
+#accelerator h1 {
+  color: #d1fd03;
+}
+
+#accelerator h2 {
+  color: #effdaf;
+}
+
+#accelerator p {
+  color: #FFF;
+}
+
+#casque {
+  padding: 50px;
+  background-image: radial-gradient(circle 80vh at bottom, #6f0367, #2c0129);
+}
+
+#casque img {
+  border: 10px solid #7f0877;
+  border-radius: 100%;
+}
+
+#casque h1 {
+  color: #d1fd03;
+}
+
+#casque h2 {
+  color: #effdaf;
+}
+
+#casque p {
+  color: #FFF;
+}
+
+#gants {
+  padding: 50px;
+  background-image: radial-gradient(circle 80vh at bottom, #6f0367, #2c0129);
+}
+
+#gants img {
+  border: 10px solid #7f0877;
+  border-radius: 100%;
+}
+
+#gants h1 {
+  color: #d1fd03;
+}
+
+#gants h2 {
+  color: #effdaf;
+}
+
+#gants p {
+  color: #FFF;
+}
+
+#frein {
+  padding: 50px;
+  background-image: radial-gradient(circle 80vh at bottom, #6f0367, #2c0129);
+}
+
+#frein img {
+  border: 10px solid #7f0877;
+  border-radius: 100%;
+}
+
+#frein h1 {
+  color: #d1fd03;
+}
+
+#frein h2 {
+  color: #effdaf;
+}
+
+#frein p {
+  color: #FFF;
 }
